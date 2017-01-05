@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 首页导航 -->
+    <string-array name="bottom_bar_labels">
+        <item>@string/tab_new</item>
+        <item>@string/tab_zixun</item>
+        <item>@string/tab_zhibo</item>
+    </string-array>
+</resources>

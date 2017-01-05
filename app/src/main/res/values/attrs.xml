@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ToggleView">
+        <attr name="switch_background" format="reference" />
+        <attr name="slide_button" format="reference" />
+        <attr name="switch_state" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <attr name="contentStyle" format="reference"/>
+    <attr name="titleStyle" format="reference"/>
+    <attr name="buttonBg" format="reference|color" />
+    <attr name="buttonTextColor" format="reference|color" />
+    <attr name="checkTextColor" format="reference|color" />
+    <attr name="switchTextColor" format="reference|color" />
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ZhxmDemo</string>
+    <string name="drawer_open">drawer_open_ing</string>
+    <string name="drawer_close">drawer_close_ing</string>
+    <string name="tab_new">新闻</string>
+    <string name="tab_zixun">组图</string>
+    <string name="tab_zhibo">专题</string>
+    <string name="isNetWork">暂无网络连接，请稍后重试</string>
+    <string name="connection_failed">请求失败,请重试</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">上拉或点击加载更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_success">刷新成功</string>
+    <string name="xlistview_header_hint_failt">刷新失败</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="no_pager">已经是最后一页了</string>
+    <string name="no_update">暂无版本更新!</string>
+    <string name="cache_clean">缓存清除成功</string>
+    <string name="opinion_success_back">非常感谢您的反馈……</string>
+    <string name="opinion_fail_back">反馈输入不能为空</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/mRa"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/title_red_bg" >
+
+        <ImageButton
+            android:id="@+id/btn_about_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:src="@drawable/back" />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关于应用"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/tttttt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/news_pic_default" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="智慧小马整合互联网海量新闻资讯，为用户提供全方位优质的新闻内容，涵盖国内、国际、军事、社会、财经、体育、娱乐、女人等资讯，提供全国所有地级市的本地新闻.新闻卡片式阅读设计，更丰富的咨询展现。更多新闻大图。享受新闻咨询的完美体验" 
+            android:textColor="#ABAAAA"/>
+    </LinearLayout>
+
+</LinearLayout>

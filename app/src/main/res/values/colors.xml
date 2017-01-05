@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1DA8FE</color>
+    <!-- <color name="colorPrimaryDark">#EA413D</color>-->
+    <color name="colorPrimaryDark">#1DA8FE</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="bottomBg">#accc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#FFBA00</color>
+    <color name="gray">#CED3D6</color>
+    <color name="dan_hui">#e6e6e6</color>
+    <color name="grey">#808080</color>
+    <color name="blue">#303F9F</color>
+    <color name="green">#24A3BA</color>
+    <color name="deppRead">#D43B33</color>
+    <color name="deppBlude">#0E90D2</color>
+    <color name="shallowGray">#E2DEDE</color>
+    <color name="shallowBlack">#212121</color>
+    <color name="background_material_dark">#212121</color>
+</resources>

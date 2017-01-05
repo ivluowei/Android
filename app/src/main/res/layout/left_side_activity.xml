@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lv_leftmenus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="?attr/titleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp">
+
+
+        <com.wt.zhxm.view.CircleImageView
+            android:id="@+id/iv_setting_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/login" />
+
+
+        <RelativeLayout
+            android:id="@+id/ll_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_login_name"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/landing"
+                android:drawablePadding="5dp"
+                android:text="先登陆！"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/ll_qq_login"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:drawableLeft="@drawable/qq"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="QQ登陆"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/left_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?attr/buttonBg"
+        android:divider="@android:color/transparent"></ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+       >
+        <Button
+            android:id="@+id/sign_out"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="退出登陆"
+            android:textColor="@color/dan_hui"
+            android:textSize="16dp"
+            android:background="@color/deppBlude"/>
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray" />
+        <Button
+            android:id="@+id/btn_out"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="退出应用"
+            android:textSize="16dp"
+            android:background="@color/deppBlude"/>
+    </LinearLayout>
+</LinearLayout>
